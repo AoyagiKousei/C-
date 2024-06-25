@@ -10,16 +10,16 @@ Calculation* p;
 //メイン関数
 int main()
 {
-	p = new Calculation;
-
 	//インスタンスＸの処理
+	p = new Calculation;
 	SetX(5.0, 10.0);
 	p->Disp();
+	delete p;
 
 	//インスタンスＹの処理
+	p = new Calculation;
 	SetY(8.0, 3.0);
 	p->Disp();
-
 	delete p;
 }
 
