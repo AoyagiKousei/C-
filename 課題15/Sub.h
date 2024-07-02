@@ -1,5 +1,5 @@
 #pragma once
-#include "sample.h"
+#include "Sample.h"
 
 //サンプルクラスを継承したクラスを宣言
 class Sub : public SampleClass
