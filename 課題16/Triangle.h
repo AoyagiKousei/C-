@@ -6,4 +6,3 @@ class Triangle : public Figure
 public:
 	void Calc();
 };
-
